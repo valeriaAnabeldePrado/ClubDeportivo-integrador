@@ -43,18 +43,20 @@
             label2 = new Label();
             label1 = new Label();
             customPanel1 = new CustomPanel();
+            pnlContainer = new Panel();
             pnlControlPanel.SuspendLayout();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            customPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // pnlControlPanel
             // 
             pnlControlPanel.Controls.Add(btnClose2);
             pnlControlPanel.Controls.Add(btnClose);
-            pnlControlPanel.Location = new Point(907, 13);
+            pnlControlPanel.Location = new Point(1481, 12);
             pnlControlPanel.Name = "pnlControlPanel";
-            pnlControlPanel.Size = new Size(184, 35);
+            pnlControlPanel.Size = new Size(198, 35);
             pnlControlPanel.TabIndex = 0;
             // 
             // btnClose2
@@ -67,7 +69,7 @@
             btnClose2.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnClose2.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnClose2.FlatStyle = FlatStyle.Flat;
-            btnClose2.Location = new Point(133, 1);
+            btnClose2.Location = new Point(170, 1);
             btnClose2.Name = "btnClose2";
             btnClose2.Size = new Size(25, 31);
             btnClose2.TabIndex = 2;
@@ -84,7 +86,7 @@
             btnClose.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnClose.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnClose.FlatStyle = FlatStyle.Flat;
-            btnClose.Location = new Point(77, 1);
+            btnClose.Location = new Point(120, 1);
             btnClose.Name = "btnClose";
             btnClose.Size = new Size(26, 31);
             btnClose.TabIndex = 1;
@@ -102,7 +104,7 @@
             panel1.Controls.Add(btnGestion);
             panel1.Location = new Point(0, -1);
             panel1.Name = "panel1";
-            panel1.Size = new Size(408, 808);
+            panel1.Size = new Size(408, 931);
             panel1.TabIndex = 1;
             // 
             // btnExtra
@@ -114,7 +116,7 @@
             btnExtra.FlatStyle = FlatStyle.Flat;
             btnExtra.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btnExtra.ForeColor = Color.White;
-            btnExtra.Location = new Point(110, 668);
+            btnExtra.Location = new Point(110, 755);
             btnExtra.Margin = new Padding(3, 4, 3, 4);
             btnExtra.Name = "btnExtra";
             btnExtra.Padding = new Padding(34, 0, 0, 0);
@@ -133,7 +135,7 @@
             btnActividades.FlatStyle = FlatStyle.Flat;
             btnActividades.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btnActividades.ForeColor = Color.White;
-            btnActividades.Location = new Point(110, 556);
+            btnActividades.Location = new Point(110, 632);
             btnActividades.Margin = new Padding(3, 4, 3, 4);
             btnActividades.Name = "btnActividades";
             btnActividades.Padding = new Padding(34, 0, 0, 0);
@@ -152,7 +154,7 @@
             btnPlantel.FlatStyle = FlatStyle.Flat;
             btnPlantel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btnPlantel.ForeColor = Color.White;
-            btnPlantel.Location = new Point(110, 444);
+            btnPlantel.Location = new Point(110, 509);
             btnPlantel.Margin = new Padding(3, 4, 3, 4);
             btnPlantel.Name = "btnPlantel";
             btnPlantel.Padding = new Padding(34, 0, 0, 0);
@@ -171,7 +173,7 @@
             btnPagosFactura.FlatStyle = FlatStyle.Flat;
             btnPagosFactura.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btnPagosFactura.ForeColor = Color.White;
-            btnPagosFactura.Location = new Point(110, 332);
+            btnPagosFactura.Location = new Point(110, 381);
             btnPagosFactura.Margin = new Padding(3, 4, 3, 4);
             btnPagosFactura.Name = "btnPagosFactura";
             btnPagosFactura.Padding = new Padding(34, 0, 0, 0);
@@ -180,6 +182,7 @@
             btnPagosFactura.Text = "Pagos y facturación";
             btnPagosFactura.TextAlign = ContentAlignment.MiddleLeft;
             btnPagosFactura.UseVisualStyleBackColor = false;
+            btnPagosFactura.Click += btnPagosFactura_Click;
             // 
             // btnGestion
             // 
@@ -190,7 +193,7 @@
             btnGestion.FlatStyle = FlatStyle.Flat;
             btnGestion.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btnGestion.ForeColor = Color.White;
-            btnGestion.Location = new Point(110, 220);
+            btnGestion.Location = new Point(110, 252);
             btnGestion.Margin = new Padding(3, 4, 3, 4);
             btnGestion.Name = "btnGestion";
             btnGestion.Padding = new Padding(34, 0, 0, 0);
@@ -207,10 +210,10 @@
             panel2.Controls.Add(lblNombreUser);
             panel2.Controls.Add(label2);
             panel2.Controls.Add(label1);
-            panel2.Location = new Point(431, 79);
+            panel2.Location = new Point(437, 46);
             panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(656, 103);
+            panel2.Size = new Size(963, 103);
             panel2.TabIndex = 2;
             // 
             // lblNombreUser
@@ -248,18 +251,26 @@
             // 
             // customPanel1
             // 
-            customPanel1.Location = new Point(477, 220);
+            customPanel1.Controls.Add(pnlContainer);
+            customPanel1.Location = new Point(437, 173);
             customPanel1.Margin = new Padding(3, 4, 3, 4);
             customPanel1.Name = "customPanel1";
-            customPanel1.Size = new Size(574, 512);
+            customPanel1.Size = new Size(1200, 693);
             customPanel1.TabIndex = 3;
+            // 
+            // pnlContainer
+            // 
+            pnlContainer.Location = new Point(3, 3);
+            pnlContainer.Name = "pnlContainer";
+            pnlContainer.Size = new Size(1189, 683);
+            pnlContainer.TabIndex = 0;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1107, 804);
+            ClientSize = new Size(1700, 913);
             Controls.Add(customPanel1);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -272,6 +283,7 @@
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            customPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -291,5 +303,6 @@
         private Label label1;
         private Label lblNombreUser;
         private CustomPanel customPanel1;
+        private Panel pnlContainer;
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anabel\\Desktop\\Dashboard ClubDeportivo\\Dashboard ClubDeportivo\\Dashboard ClubDeportivo.csproj": {}
+    "C:\\Users\\Anabel\\Desktop\\Dashboard ClubDeportivo - copia\\Dashboard ClubDeportivo\\Dashboard ClubDeportivo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anabel\\Desktop\\Dashboard ClubDeportivo\\Dashboard ClubDeportivo\\Dashboard ClubDeportivo.csproj": {
+    "C:\\Users\\Anabel\\Desktop\\Dashboard ClubDeportivo - copia\\Dashboard ClubDeportivo\\Dashboard ClubDeportivo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anabel\\Desktop\\Dashboard ClubDeportivo\\Dashboard ClubDeportivo\\Dashboard ClubDeportivo.csproj",
+        "projectUniqueName": "C:\\Users\\Anabel\\Desktop\\Dashboard ClubDeportivo - copia\\Dashboard ClubDeportivo\\Dashboard ClubDeportivo.csproj",
         "projectName": "Dashboard ClubDeportivo",
-        "projectPath": "C:\\Users\\Anabel\\Desktop\\Dashboard ClubDeportivo\\Dashboard ClubDeportivo\\Dashboard ClubDeportivo.csproj",
+        "projectPath": "C:\\Users\\Anabel\\Desktop\\Dashboard ClubDeportivo - copia\\Dashboard ClubDeportivo\\Dashboard ClubDeportivo.csproj",
         "packagesPath": "C:\\Users\\Anabel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anabel\\Desktop\\Dashboard ClubDeportivo\\Dashboard ClubDeportivo\\obj\\",
+        "outputPath": "C:\\Users\\Anabel\\Desktop\\Dashboard ClubDeportivo - copia\\Dashboard ClubDeportivo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

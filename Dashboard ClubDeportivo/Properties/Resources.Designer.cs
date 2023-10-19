@@ -59,5 +59,15 @@ namespace Dashboard_ClubDeportivo.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap txbox {
+            get {
+                object obj = ResourceManager.GetObject("txbox", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

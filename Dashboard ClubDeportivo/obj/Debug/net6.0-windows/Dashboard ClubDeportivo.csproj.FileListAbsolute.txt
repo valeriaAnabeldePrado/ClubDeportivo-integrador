@@ -49,3 +49,5 @@ C:\Users\Anabel\Desktop\Dashboard ClubDeportivo - copia\Dashboard ClubDeportivo\
 C:\Users\Anabel\Desktop\Dashboard ClubDeportivo - copia\Dashboard ClubDeportivo\obj\Debug\net6.0-windows\Dashboard ClubDeportivo.pdb
 C:\Users\Anabel\Desktop\Dashboard ClubDeportivo - copia\Dashboard ClubDeportivo\obj\Debug\net6.0-windows\Dashboard ClubDeportivo.genruntimeconfig.cache
 C:\Users\Anabel\Desktop\Dashboard ClubDeportivo - copia\Dashboard ClubDeportivo\obj\Debug\net6.0-windows\ref\Dashboard ClubDeportivo.dll
+C:\Users\Anabel\Desktop\Dashboard ClubDeportivo - copia\Dashboard ClubDeportivo\obj\Debug\net6.0-windows\Dashboard_ClubDeportivo.pesañas.GestionMiembos.resources
+C:\Users\Anabel\Desktop\Dashboard ClubDeportivo - copia\Dashboard ClubDeportivo\obj\Debug\net6.0-windows\Dashboard_ClubDeportivo.Pages.PagosFacturacion.resources
