@@ -9,6 +9,8 @@ namespace Dashboard_ClubDeportivo
     public partial class Form1 : Form
     {
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+
+
         private static extern IntPtr CreateRoundRectRgn
         (
             int nLeftRect,
@@ -24,10 +26,11 @@ namespace Dashboard_ClubDeportivo
 
             GestionMiembos uc = new GestionMiembos();
             agregarPaneles(uc);
-
+            pnlContainer.Size = new Size(1020, 600);
 
             this.BackColor = Color.FromArgb(0x4A, 0x66, 0xAE);
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+            this.MaximumSize = new Size(Screen.PrimaryScreen.WorkingArea.Width, Screen.PrimaryScreen.WorkingArea.Height);
         }
 
         private void btnClose2_Click(object sender, EventArgs e)

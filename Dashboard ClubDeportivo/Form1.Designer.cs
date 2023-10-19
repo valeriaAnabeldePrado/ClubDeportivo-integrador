@@ -54,7 +54,7 @@
             // 
             pnlControlPanel.Controls.Add(btnClose2);
             pnlControlPanel.Controls.Add(btnClose);
-            pnlControlPanel.Location = new Point(1481, 12);
+            pnlControlPanel.Location = new Point(1328, 12);
             pnlControlPanel.Name = "pnlControlPanel";
             pnlControlPanel.Size = new Size(198, 35);
             pnlControlPanel.TabIndex = 0;
@@ -255,14 +255,14 @@
             customPanel1.Location = new Point(437, 173);
             customPanel1.Margin = new Padding(3, 4, 3, 4);
             customPanel1.Name = "customPanel1";
-            customPanel1.Size = new Size(1200, 693);
+            customPanel1.Size = new Size(1089, 693);
             customPanel1.TabIndex = 3;
             // 
             // pnlContainer
             // 
             pnlContainer.Location = new Point(3, 3);
             pnlContainer.Name = "pnlContainer";
-            pnlContainer.Size = new Size(1189, 683);
+            pnlContainer.Size = new Size(1078, 683);
             pnlContainer.TabIndex = 0;
             // 
             // Form1
@@ -270,7 +270,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1700, 913);
+            ClientSize = new Size(1571, 913);
             Controls.Add(customPanel1);
             Controls.Add(panel2);
             Controls.Add(panel1);
